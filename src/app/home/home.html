@@ -1,11 +1,39 @@
-<div>
-  Your Content Here
-  <input type="text" [value]="title.value" (input)="title.value = $event.target.value" autofocus>
-  <!--
-    Rather than wiring up two-way data-binding ourselves
-    we can use Angular's [(ngModel)] syntax
-    <input type="text" [(ngModel)]="title.value">
-  -->
+<nav class="white z-depth-0" role="navigation">
+  <div class="nav-wrapper pad1">
+    <!--<a id="logo-container" href="#" class="brand-logo center"><img src="./img/logo_one.png"></a>-->
 
-  <pre>this.title = {{ title | json }}</pre>
+    <a href="#" class="left sub-title margin1x-left">An ultimate classified search engine</a>
+    <a href="#" class="right sub-title margin1x-right">4581645 records</a>
+
+
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="section center" style="margin-top: 15% ">
+    <img src="img/logo_one.png" class="brand-logo">
+    <div class="row margin1x-top">
+      <div class="col s8 offset-s2">
+        <nav style="line-height: 64px;" class="white">
+          <div class="nav-wrapper">
+            <!--<form>-->
+            <div class="input-field">
+              <input id="search" type="search" placeholder="What you need" required>
+              <label for="search" class="search-icon"><i class="material-icons">search</i></label>
+              <!-- I've put "red-text" class to emphasize -->
+              <i class="material-icons red-text text-lighten-1">close</i>
+            </div>
+
+            <!--<div class="input-field">-->
+              <a  href="/result" class="btn waves-effect waves-light" type="submit" name="action" ln>Cyloon search
+                <!--<i class="material-icons right" style="line-height: 36px;">send</i>-->
+              </a>
+            <!--</div>-->
+            <!--</form>-->
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
 </div>

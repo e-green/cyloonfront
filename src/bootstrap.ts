@@ -9,6 +9,10 @@ import {ELEMENT_PROBE_PROVIDERS} from 'angular2/platform/common_dom';
 // include for production builds
 // import {enableProdMode} from 'angular2/core';
 
+//declare var $:any;
+//import {$} from 'jquery/jquery.min.js';
+//import 'materialize.min.js';
+
 /*
  * App Component
  * our top level component that holds all of our components
@@ -27,7 +31,7 @@ function main() {
     ROUTER_PROVIDERS,
     ELEMENT_PROBE_PROVIDERS // remove in production
   ])
-  .catch(err => console.error(err));
+    .catch(err => console.error(err));
 }
 
 document.addEventListener('DOMContentLoaded', main);

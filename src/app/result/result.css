@@ -11,11 +11,13 @@ nav .brand-logo, .search-icon i {
   color: #a4a4a4;
 }
 
+.white .input-field input{
+  color: #9c9c9c;
+}
 
-
-.brand-logo{
-  height: 92px;
-  margin-bottom: 25px;
+.brand-logo img{
+  height: 36px;
+  line-height: 64px;
 }
 
 nav{
@@ -32,4 +34,15 @@ nav{
 
 .sub-title{
   color: #838383;
+}
+
+.section{
+  padding: 0px;
+}
+.card{
+  /*margin-bottom: 1px;*/
+  /*margin-top: 1px;*/
+}
+.card-action a{
+  text-transform: lowercase;
 }

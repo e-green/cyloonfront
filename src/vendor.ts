@@ -8,6 +8,9 @@ import 'angular2/core';
 import 'angular2/router';
 import 'angular2/http';
 
+//Jquery
+//import './'
+
 // RxJS
 import 'rxjs';
 

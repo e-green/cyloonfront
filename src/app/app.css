@@ -7,15 +7,13 @@
  */
 
 nav ul a,
-nav .brand-logo, .search-icon i {
-  color: #a4a4a4;
+nav .brand-logo {
+  color: #444;
 }
 
 
-
-.brand-logo{
-  height: 92px;
-  margin-bottom: 25px;
+.brand-logo img{
+  height: 55px;
 }
 
 nav{
